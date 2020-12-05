@@ -3,31 +3,48 @@
 namespace SpaceS {
 	class Gold {
 	public:
-		Gold(double x_, double y_, double z_);
-		double volume();
-		double weight();
+		Gold(long double x_, long double y_, long double z_);
+		Gold(long double x_, long double y_, long double z_ , bool fl);
+		long double volume();
+		long double weight();
 	public:
-		double x, y, z;
-		double L, ro;
-		double c;
+		long double x, y, z;
+		long double L, ro;
+		long double c , meltT = 1064 , curT = 300;
 	};
 	class SpaceShip {
 		public:
-			SpaceShip(double cur_en, double min_en, double bbl_volume , int w_w , int w_h);
+			SpaceShip(long double cur_en, long double min_en, long double bbl_volume , int w_w , int w_h);
 			
-			bool PutGold(Gold ingot);
+			bool PutGold(Gold& ingot);
 
+			bool RotateIngot(Gold& ingot);
 
+			long double GetCutScale(Gold& ingot);
 
-			void ChangeBubble();
-			         
+			bool Melt(Gold& ingot);
+
+			double MeltInfo(Gold& ingot) ;
+
+			void ShowShipStatus();
 		private:
-			bool CheckIngotSize(Gold ingot);
+			struct DataForMelt {
+				DataForMelt(SpaceShip& ship, Gold& ingot);
+				long double recuperation_en;
+				long double need_en_before_melt;
+				long double energy_for_melt;
+				long double energy_for_cut;
+			};
 
-			double current_energy, min_energy;
-			int bubbles_cnt = 0;
-			double bubble_volume;
+			bool CheckIngotSize(Gold& ingot);
+
+			long double current_energy, min_energy;
+			long double bubble_volume;
 			int window_height, window_width;
-			double summary_volume = 0;
+			long double summary_volume = 0;
+			long double recuperation = 0.2; // coof of recuperation
+			long double cut_coef = 2.5; // coof for cut , energy_for_cut = cut_coef * (ingot.x * ingot.y)
+		public:
+			bool Ability_to_take_gold = true;
 	};
 }

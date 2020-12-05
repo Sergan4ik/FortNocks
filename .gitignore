@@ -351,3 +351,10 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+SpaceShip/SpaceShip.vcxproj.filters
+SpaceShip/SpaceShip.vcxproj
+RandomGen/RandomGen.vcxproj.filters
+RandomGen/RandomGen.vcxproj
+FortNocks/FortNocks.vcxproj.filters
+FortNocks/FortNocks.vcxproj
+FortNocks/FortNocks.sln

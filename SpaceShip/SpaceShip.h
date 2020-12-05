@@ -1,4 +1,5 @@
 #pragma once
+#include <fstream>
 
 namespace SpaceS {
 	class Gold {
@@ -7,16 +8,18 @@ namespace SpaceS {
 		Gold(long double x_, long double y_, long double z_ , bool fl);
 		long double volume();
 		long double weight();
+		~Gold();
 	public:
 		long double x, y, z;
 		long double L, ro;
 		long double c , meltT = 1064 , curT = 300;
+		std::ofstream out;
 	};
 	class SpaceShip {
 		public:
 			SpaceShip(long double cur_en, long double min_en, long double bbl_volume , int w_w , int w_h);
 			
-			bool PutGold(Gold& ingot);
+			bool PutGold(Gold& ingot , std::string DemoType);
 
 			bool RotateIngot(Gold& ingot);
 
@@ -27,6 +30,8 @@ namespace SpaceS {
 			double MeltInfo(Gold& ingot) ;
 
 			void ShowShipStatus();
+
+			~SpaceShip();
 		private:
 			struct DataForMelt {
 				DataForMelt(SpaceShip& ship, Gold& ingot);
@@ -46,5 +51,6 @@ namespace SpaceS {
 			long double cut_coef = 2.5; // coof for cut , energy_for_cut = cut_coef * (ingot.x * ingot.y)
 		public:
 			bool Ability_to_take_gold = true;
+			std::ofstream out;
 	};
 }

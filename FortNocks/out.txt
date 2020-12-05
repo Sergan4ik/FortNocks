@@ -1,0 +1,280 @@
+
+New ship created with next params
+ooooooooooooooooooooooooooooooooooooooooooooooooo
+Current energy: 10000.000000
+Energy for go home: 0.000000
+Max volume of gold in bubble: 50.000000
+Window size W/H : 10/10
+ooooooooooooooooooooooooooooooooooooooooooooooooo
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 5
+Height: 11
+Length: 12
+Other params: C = 0.132600, L = 67.524000 ro: 19.686000
+------------------------------------------------------------
+Ingot is invalid. Drop out
+
+New ship created with next params
+ooooooooooooooooooooooooooooooooooooooooooooooooo
+Current energy: 10002.000000
+Energy for go home: 3.000000
+Max volume of gold in bubble: 5.000000
+Window size W/H : 13/18
+ooooooooooooooooooooooooooooooooooooooooooooooooo
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 2
+Height: 15
+Length: 16
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.647199 % of this ingot
+Energy wasted for melt: 9924.000000
+Recuperated energy: 1652.401160
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 1655.401160
+Energy for go home: 3.000000
+Current gold on ship: 3.106554
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 10
+Height: 5
+Length: 14
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.068304 % of this ingot
+Energy wasted for melt: 1527.401160
+Recuperated energy: 254.320783
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 257.320783
+Energy for go home: 3.000000
+Current gold on ship: 3.584684
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 18
+Height: 11
+Length: 8
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Spin ingot, and put to bubble
+We will melt 0.005026 % of this ingot
+Energy wasted for melt: 254.320783
+Recuperated energy: 42.345824
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 45.345824
+Energy for go home: 3.000000
+Current gold on ship: 3.664295
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 18
+Height: 5
+Length: 2
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Spin ingot, and put to bubble
+We will melt 0.007364 % of this ingot
+Energy wasted for melt: 42.345824
+Recuperated energy: 7.050815
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 10.050815
+Energy for go home: 3.000000
+Current gold on ship: 3.677551
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 6
+Height: 7
+Length: 12
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.000438 % of this ingot
+Energy wasted for melt: 7.050815
+Recuperated energy: 1.174000
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 4.174000
+Energy for go home: 3.000000
+Current gold on ship: 3.679758
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 18
+Height: 9
+Length: 6
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Spin ingot, and put to bubble
+We will melt 0.000038 % of this ingot
+Energy wasted for melt: 1.174000
+Recuperated energy: 0.195478
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.195478
+Energy for go home: 3.000000
+Current gold on ship: 3.680125
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 14
+Height: 19
+Length: 12
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot is invalid. Drop out
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 10
+Height: 1
+Length: 10
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.000061 % of this ingot
+Energy wasted for melt: 0.195478
+Recuperated energy: 0.032548
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.032548
+Energy for go home: 3.000000
+Current gold on ship: 3.680186
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 10
+Height: 19
+Length: 8
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot is invalid. Drop out
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 6
+Height: 13
+Length: 18
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.000001 % of this ingot
+Energy wasted for melt: 0.032548
+Recuperated energy: 0.005419
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.005419
+Energy for go home: 3.000000
+Current gold on ship: 3.680197
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 10
+Height: 7
+Length: 16
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.000000 % of this ingot
+Energy wasted for melt: 0.005419
+Recuperated energy: 0.000902
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.000902
+Energy for go home: 3.000000
+Current gold on ship: 3.680198
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 2
+Height: 17
+Length: 18
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Ingot wasn't turned/spinned , put to bubble
+We will melt 0.000000 % of this ingot
+Energy wasted for melt: 0.000902
+Recuperated energy: 0.000150
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.000150
+Energy for go home: 3.000000
+Current gold on ship: 3.680199
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 14
+Height: 11
+Length: 4
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Spin ingot, and put to bubble
+We will melt 0.000000 % of this ingot
+Energy wasted for melt: 0.000150
+Recuperated energy: 0.000025
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.000025
+Energy for go home: 3.000000
+Current gold on ship: 3.680199
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+------------------------------------------------------------
+New ingot's parametrs:
+Width: 14
+Height: 1
+Length: 14
+Other params: C = 0.130000, L = 66.200000 ro: 19.300000
+------------------------------------------------------------
+Spin ingot, and put to bubble
+We will melt 0.000000 % of this ingot
+Energy wasted for melt: 0.000025
+Recuperated energy: 0.000004
+We can't take gold anymore , no enough energy
+
+/////////////////////////////////////////////////
+Current ship status
+Current energy: 3.000004
+Energy for go home: 3.000000
+Current gold on ship: 3.680199
+Max volume of gold in bubble: 5.000000
+/////////////////////////////////////////////////
+
+GO HOME
+
+
+New ship created with next params
+ooooooooooooooooooooooooooooooooooooooooooooooooo
+Current energy: 10000.000000
+Energy for go home: 10.000000
+Max volume of gold in bubble: 10.000000
+Window size W/H : 5/5
+ooooooooooooooooooooooooooooooooooooooooooooooooo

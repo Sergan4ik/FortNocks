@@ -9,13 +9,21 @@
 
 #define EPS 10e-6
 
-#define LOG(msg) std::cerr << msg << std::endl
+#define FILE_OUT 1
+
+#ifdef FILE_OUT
+#define LOG(msg) out << msg << std::endl
+#else
+#define LOG(msg) std::cout << msg << std::endl
+#endif
 
 namespace SpaceS {
-	
+
 	Gold::Gold(long double x_, long double y_, long double z_):
 		x(x_) , y(y_) , z(z_)
 	{
+		if (!out.is_open())
+			out.open("out.txt", std::fstream::app);
 		srand(time(NULL));
 		long double eps = pow((-1), rand() % 2) * (rand() % 5) + 1;
 		ro = 19.3 + (eps / 100) * 19.3;
@@ -33,11 +41,18 @@ namespace SpaceS {
 	Gold::Gold(long double x_, long double y_, long double z_, bool fl)
 		:x(x_), y(y_), z(z_)
 	{
+		if (!out.is_open())
+			out.open("out.txt");
 		srand(time(NULL));
 		long double eps = pow((-1), rand() % 2) * (rand() % 5) + 1;
 		ro = 19.3 + (eps / 100) * 19.3;
 		L = 66.2 + (eps / 100) * 66.2;
 		c = 0.130 + (eps / 100) * 0.130;
+	}
+
+	Gold::~Gold() {
+		if (!out.is_open())
+			out.close();
 	}
 
 	long double Gold::volume() {
@@ -51,6 +66,7 @@ namespace SpaceS {
 	SpaceShip::SpaceShip(long double cur_en, long double min_en, long double bbl_volume, int w_w, int w_h):
 		current_energy(cur_en) , min_energy(min_en) , bubble_volume(bbl_volume) , window_height(w_h) , window_width(w_w)
 	{
+		out.open("out.txt" , std::fstream::app);
 		LOG(""); // new line
 		LOG("New ship created with next params");
 		LOG("ooooooooooooooooooooooooooooooooooooooooooooooooo");
@@ -66,7 +82,7 @@ namespace SpaceS {
 	
 
 
-	bool SpaceShip::PutGold(Gold& ingot) {
+	bool SpaceShip::PutGold(Gold& ingot, std::string DemoType){
 		if (!Ability_to_take_gold) {
 			LOG("We can't tale gold");
 			return false;
@@ -204,4 +220,12 @@ namespace SpaceS {
 		energy_for_cut		 = ship.cut_coef * (ingot.x * ingot.y);
 	}
 
+	SpaceShip::~SpaceShip() {
+		LOG("");
+		LOG("GO HOME");
+		LOG("");
+		if (!out.is_open())
+			out.close();
+
+	}
 }

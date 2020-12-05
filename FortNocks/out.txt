@@ -1,22 +1,6 @@
 
 New ship created with next params
 ooooooooooooooooooooooooooooooooooooooooooooooooo
-Current energy: 10000.000000
-Energy for go home: 0.000000
-Max volume of gold in bubble: 50.000000
-Window size W/H : 10/10
-ooooooooooooooooooooooooooooooooooooooooooooooooo
-------------------------------------------------------------
-New ingot's parametrs:
-Width: 5
-Height: 11
-Length: 12
-Other params: C = 0.132600, L = 67.524000 ro: 19.686000
-------------------------------------------------------------
-Ingot is invalid. Drop out
-
-New ship created with next params
-ooooooooooooooooooooooooooooooooooooooooooooooooo
 Current energy: 10002.000000
 Energy for go home: 3.000000
 Max volume of gold in bubble: 5.000000

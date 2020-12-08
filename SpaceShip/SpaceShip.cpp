@@ -1,4 +1,6 @@
 #include "SpaceShip.h"
+#include "Constats.h"
+
 #include <stdlib.h>
 #include <time.h>
 #include <cmath>
@@ -25,10 +27,10 @@ namespace SpaceS {
 		if (!out.is_open())
 			out.open("out.txt", std::fstream::app);
 		srand(time(NULL));
-		long double eps = pow((-1), rand() % 2) * (rand() % 5) + 1;
-		ro = 19.3 + (eps / 100) * 19.3;
-		L = 66.2 + (eps / 100) * 66.2;
-		c = 0.130 + (eps / 100) * 0.130;
+		long double eps = pow((-1), rand() % 2) * (rand() % MISTAKE_RANGE_PERCENTS) + 1;
+		ro = GOLD_RO + (eps / 100) * GOLD_RO;
+		L = GOLD_LAMDA + (eps / 100) * GOLD_LAMDA;
+		c = GOLD_C + (eps / 100) * GOLD_C;
 		LOG("------------------------------------------------------------");
 		LOG("New ingot's parametrs:");
 		LOG("Width: " + std::to_string((int)x));
@@ -44,10 +46,10 @@ namespace SpaceS {
 		if (!out.is_open())
 			out.open("out.txt");
 		srand(time(NULL));
-		long double eps = pow((-1), rand() % 2) * (rand() % 5) + 1;
-		ro = 19.3 + (eps / 100) * 19.3;
-		L = 66.2 + (eps / 100) * 66.2;
-		c = 0.130 + (eps / 100) * 0.130;
+		long double eps = pow((-1), rand() % 2) * (rand() % MISTAKE_RANGE_PERCENTS) + 1;
+		ro = GOLD_RO + (eps / 100) * GOLD_RO;
+		L = GOLD_LAMDA + (eps / 100) * GOLD_LAMDA;
+		c = GOLD_C + (eps / 100) * GOLD_C;
 	}
 
 	Gold::~Gold() {

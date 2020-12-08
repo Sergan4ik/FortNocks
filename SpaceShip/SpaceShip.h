@@ -1,5 +1,6 @@
 #pragma once
 #include <fstream>
+#include "Constats.h"
 
 namespace SpaceS {
 	class Gold {
@@ -47,8 +48,8 @@ namespace SpaceS {
 			long double bubble_volume;
 			int window_height, window_width;
 			long double summary_volume = 0;
-			long double recuperation = 0.2; // coof of recuperation
-			long double cut_coef = 2.5; // coof for cut , energy_for_cut = cut_coef * (ingot.x * ingot.y)
+			long double recuperation = RECUPERATION_COOF; // coof of recuperation
+			long double cut_coef = CUT_COEF; // coof for cut , energy_for_cut = cut_coef * (ingot.x * ingot.y)
 		public:
 			bool Ability_to_take_gold = true;
 			std::ofstream out;
